@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive Intro to Economics midterm prep: lessons from zero, interactive graphs, quizzes, flashcards and practice exams." />
+    <meta name="theme-color" content="#f5f3ee" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12151b" media="(prefers-color-scheme: dark)" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d2433'/%3E%3Cpath d='M7 8 25 24' stroke='%236ea2ff' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M7 24 25 8' stroke='%23ff9d5c' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+    <title>EconPrep · Intro to Economics</title>
+    <script>
+      // Apply a saved light/dark choice before first paint to avoid a theme flash.
+      try {
+        var saved = JSON.parse(localStorage.getItem('econ-tutor:v1') || 'null');
+        var theme = saved && saved.settings && saved.settings.theme;
+        if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-DxMmNs9C.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BPJDliJe.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
